@@ -1,21 +1,3 @@
-CREATE TABLE Produtos (
-	ID_Produto INTEGER NOT NULL AUTO_INCREMENT,
-	Nome VARCHAR(50) NOT NULL,
-	Preco DOUBLE(5,2) NOT NULL,
-	Estoque INTEGER NOT NULL,
-	Perecivel BOOLEAN  NOT NULL,
-	Marca VARCHAR (40),
-	Nacionalidade VARCHAR(40),
-    PRIMARY KEY (ID_Produto)
-);
-
-
-INSERT INTO Produtos (Nome, Preco, Estoque, Perecivel, Marca, Nacionalidade) VALUES 
-('Arroz', 10.99, 100, false, 'Tio João', 'Brasil'),
-('Leite', 3.50, 50, true, 'Nestlé', 'Suíça'),
-('Café', 8.75, 80, false, 'Melitta', 'Brasil'),
-('Sabão em Pó', 15.25, 120, false, 'OMO', 'Brasil'),
-('Maçã', 2.50, 30, true, 'Fuji', 'Brasil');
 
 CREATE TABLE Cidades (
 	id INTEGER,
@@ -24,7 +6,7 @@ CREATE TABLE Cidades (
 	PRIMARY KEY (id)
 );
 
-drop table Alunos;
+
 CREATE TABLE Alunos (
 	id INTEGER,
 	Nome VARCHAR(60) NOT NULL,
