@@ -1,2 +1,3 @@
-![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/a0314e5c-885d-4b97-9d82-4b535b239fdb)
+![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/fe5c7aa7-8dd2-440f-99a4-d849c7d23776)
+
 ## Atividade individual - Tema: Base de Dados Animais (DELETE, ALTER, UPDATE E DROP)
