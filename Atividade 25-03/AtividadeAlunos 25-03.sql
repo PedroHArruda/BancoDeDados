@@ -1,3 +1,4 @@
+/* Criação das tabelas */ 
 
 CREATE TABLE Cidades (
 	id INTEGER,
@@ -14,6 +15,8 @@ CREATE TABLE Alunos (
 	Cidade_ID INTEGER, 
 	FOREIGN KEY (Cidade_ID) REFERENCES Cidades (id)
 );
+
+/* Inserção de dados nas tabelas */
 
 INSERT INTO Cidades VALUES 
 (1, 'Arraial dos Tucanos', 42632),
@@ -36,4 +39,5 @@ INSERT INTO Alunos VALUES
 (11, 'Tim Berners-Lee', '1973-12-05', 4),
 (12, 'Richard Feynman', '1982-09-12', 1);
 
+/* Realização dos agrupamentos */ 
 select * from Alunos inner join Cidades on Cidades.id = alunos.cidade_id;
