@@ -1,5 +1,6 @@
 /* UPX II: */
 
+/* Criação da tabela Usuário */ 
 CREATE TABLE Usuario (
     Nome VARCHAR(100) NOT NULL,
     data_nascimento DATE NOT NULL,
@@ -16,12 +17,12 @@ CREATE TABLE Usuario (
     nivel_dependencia INTEGER NOT NULL,
     primary key (ID_User)
 );
-
+/* Inserção de dados teste */ 
 INSERT INTO Usuario (Nome, data_nascimento, data_comeco_fumo, Email, Senha, media_cigarro, qtdDiasSemFumar, qtdDiasVicio, ContagemCigarros, meta, custo_diario, nivel_dependencia) VALUES
 ("Joao Almeida", "2000-01-01", "2018-04-01", "joaoalmeida@gmail.com", AES_ENCRYPT("abc123", 'minhachave'), 10, null, null, null, 1, 10.00, 8);
 
 select * from Usuario;  
-
+/* Criação da tabela RegistroDiário */ 
 CREATE TABLE RegistroDiario (
     ID_RegistroDiario INTEGER AUTO_INCREMENT,
     nivel_desejo_fumar INTEGER NOT NULL,
@@ -31,7 +32,7 @@ CREATE TABLE RegistroDiario (
     PRIMARY KEY (ID_RegistroDiario),
     FOREIGN KEY (ID_User) REFERENCES Usuario(ID_User)
 );
-
+/* Inserção de dados teste */  
 INSERT INTO RegistroDiario (nivel_desejo_fumar, cigarros_fumados, ID_User) VALUES
 (6, 10, 1);
 
