@@ -6,7 +6,7 @@
 O seguinte exercício tem como objetivo o desenvolvimento de StoredProcedures para automatizar a inserção de dados e selação de dados do banco. 
 
 ## Pré Requisitos ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-Para o desenvolvimento da atividade foi utilizado apenas o MySQL WorkBench. 
+Para o desenvolvimento da atividade foi utilizado apenas o MySQL Workbench. 
 
 ## Autor
 - Pedro Henrique Arruda - RA: 236720. 
