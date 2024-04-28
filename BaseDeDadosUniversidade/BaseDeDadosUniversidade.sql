@@ -6,7 +6,6 @@ CREATE TABLE Cursos (
   PRIMARY KEY (IDCurso)
   );
 
-drop table Cursos;
 
 CREATE TABLE Alunos(
   RA INT NOT NULL AUTO_INCREMENT,
@@ -33,6 +32,8 @@ CREATE TABLE Cursos_Professores(
   FOREIGN KEY (Cursos_IDCurso) REFERENCES Cursos(IDCurso),
   FOREIGN KEY (Professores_idProfessores) REFERENCES Professores (idProfessores)
 );
+
+/* PROCEDURES PARA INSERÇÃO DOS DADOS */
 
 delimiter $
 create procedure novoAluno(
@@ -157,6 +158,8 @@ CALL novoCursoProfessor(12, 12);
 CALL novoCursoProfessor(13, 13);
 CALL novoCursoProfessor(14, 14);
 CALL novoCursoProfessor(15, 15);
+
+/* PROCEDURES PARA SELEÇÃO DOS DADOS */
 
 delimiter $ 
 create procedure selecionarCursos()
