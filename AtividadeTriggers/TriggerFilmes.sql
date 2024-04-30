@@ -1,5 +1,4 @@
 
-
 -- Trigger Exemplo 2
 
 create table Filmes(
@@ -64,6 +63,4 @@ delete from Filmes where id = 2;
 delete from Filmes where id = 4;
 
 select * from Log_deletions;
-
-drop trigger chk_minutos;
 
