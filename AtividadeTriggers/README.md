@@ -1,4 +1,4 @@
-![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/e88978a4-e987-4b70-a3c9-b752438f0196)
+![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/7f7137c7-fa94-4dc3-a6e5-c60032131658)
 
 # Atividade individual - Tema: Exemplos (TRIGGERS) - Filmes
 
