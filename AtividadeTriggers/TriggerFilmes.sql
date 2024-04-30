@@ -1,101 +1,4 @@
 
--- Trigger Exemplo 2
-
-create table Filmes(
-	id int auto_increment,
-    titulo varchar(60),
-    minutos int,
-    primary key (id)
-);
-
-delimiter $
-	create trigger chk_minutos before insert on Filmes
-	for each row
-	begin
-		if new.minutos < 0 then
-		set new.minutos = null;
-		end if;
-	end$
-
-delimiter ;
-
-insert into Filmes (titulo, minutos) values ("The Terrible Trigger", 120);
-create table Pedidos (
-	IDPedido int auto_increment,
-    DataPedido datetime,
-    NomeCliente varchar(100),
-    primary key (IDPedido)
-);
-
-insert into	Pedidos(DataPedido, NomeCliente) values
-(now(), "Cliente 1"),
-(now(), "Cliente 1"),
-(now(), "Cliente 1");
-
--- Criação da Trigger 
-
-delimiter $
-create trigger RegistroDataCriacaoPedido
-before insert on Pedidos
-for each row
-begin
-	set NEW.DataPedido = now();
-end;
-$ 
-delimiter ;
-
-insert into Pedidos (NomeCliente) values ('Novo Cliente1');
-select * from Pedidos;
-
-
--- Trigger Exemplo 2
-
-create table Filmes(
-	id int auto_increment,
-    titulo varchar(60),
-    minutos int,
-    primary key (id)
-);
-
-delimiter $
-	create trigger chk_minutos before insert on Filmes
-	for each row
-	begin
-		if new.minutos < 0 then
-		set new.minutos = null;
-		end if;
-	end$
-
-delimiter ;
-
-insert into Filmes (titulo, minutos) values ("The Terrible Trigger", 120);
-create table Pedidos (
-	IDPedido int auto_increment,
-    DataPedido datetime,
-    NomeCliente varchar(100),
-    primary key (IDPedido)
-);
-
-insert into	Pedidos(DataPedido, NomeCliente) values
-(now(), "Cliente 1"),
-(now(), "Cliente 1"),
-(now(), "Cliente 1");
-
--- Criação da Trigger 
-
-delimiter $
-create trigger RegistroDataCriacaoPedido
-before insert on Pedidos
-for each row
-begin
-	set NEW.DataPedido = now();
-end;
-$ 
-delimiter ;
-
-insert into Pedidos (NomeCliente) values ('Novo Cliente1');
-select * from Pedidos;
-
 
 -- Trigger Exemplo 2
 
@@ -127,8 +30,6 @@ insert into Filmes (titulo, minutos) values ("Metropole", 0);
 insert into Filmes (titulo, minutos) values ("A lista", 120);
 
 
-
-
 select * from Filmes;
 
 delimiter $
@@ -158,8 +59,6 @@ delimiter $
 			insert into Log_deletions values(null, old.titulo, sysdate(), user());
         end$
 delimiter ;
-
-
 
 delete from Filmes where id = 2;
 delete from Filmes where id = 4;
