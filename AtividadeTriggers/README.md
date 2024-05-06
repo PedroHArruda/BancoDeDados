@@ -3,7 +3,7 @@
 # Atividade individual - Tema: Exemplos (TRIGGERS) - Filmes
 
 ## Descrição 
-Neste exercício criamos a tabela Filmes e definimos um trigger para não permitir nenhuma inserção de filmes com menos de 0 minutos de duração. Criamos também uma tabela, através de um trigger registra todas as vezes em que um dado é deletado da tabela Filmes.
+Neste exercício criamos a tabela Filmes e definimos um trigger para não permitir nenhuma inserção de filmes com menos de 0 minutos de duração. Criamos também uma tabela de log, que através de um trigger registra todas as vezes em que um dado é deletado da tabela Filmes.
 
 ## Pré-Requisitos ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 Para o desenvolvimento da atividade foi utilizado o MySQL Workbench.
