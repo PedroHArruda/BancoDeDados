@@ -174,6 +174,7 @@ begin
 end //
 delimiter ;
 
+
 -- Procedure para selecionar todos os alunos de determinado curso
 delimiter //
 create procedure selecionar_alunos_curso(
@@ -512,6 +513,8 @@ select obter_curso_id("Sociologia");
 call selecionar_areas();
 call selecionar_cursos();
 call selecionar_alunos();
+
+select * from aluno;
 
 call selecionar_alunos_curso('Arquitetura');
 call selecionar_alunos_curso('Sociologia');

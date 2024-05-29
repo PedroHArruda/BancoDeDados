@@ -3,30 +3,33 @@ create schema locadoraveiculos;
 
 -- Criação da tabela cliente
 create table cliente (
-    cod_cliente int auto_increment primary key,
+    cod_cliente int auto_increment,
     cpf varchar(11) not null,
     nome varchar(100) not null,
-    nascimento date not null
+    nascimento date not null,
+    primary key (cod_cliente)
 );
 
 -- Criação da tabela veiculo
 create table veiculo (
-    cod_veiculo int auto_increment primary key,
+    cod_veiculo int auto_increment,
     veiculo varchar(100) not null,
     cor varchar(50) not null,
     placa varchar(7) not null,
-    diaria double not null
+    diaria double not null,
+    primary key (cod_veiculo)
 );
 
 -- Criação da tabela locacao
 create table locacao (
-    cod_locacao int auto_increment primary key,
+    cod_locacao int auto_increment,
     cod_veiculo int not null,
     cod_cliente int not null,
     dias int not null,
     total double,
     foreign key (cod_veiculo) references veiculo(cod_veiculo),
-    foreign key (cod_cliente) references cliente(cod_cliente)
+    foreign key (cod_cliente) references cliente(cod_cliente),
+    primary key (cod_locacao)
 );
 
 -- Trigger para calcular o valor da coluna total na tabela locacao
