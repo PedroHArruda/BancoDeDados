@@ -1,0 +1,100 @@
+{
+  "empregados": [
+    {
+      "ID_Empregado": 1,
+      "nome": "João Grilo",
+      "rua": "Rua Suassuna",
+      "numero": 30,
+      "bairro": "",
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "complemento": "",
+      "ID_Cargo": 1
+    },
+    {
+      "ID_Empregado": 2,
+      "nome": "Ada Byron",
+      "rua": "Rua Lovelace",
+      "numero": 67,
+      "bairro": "",
+      "cidade": "London",
+      "estado": "",
+      "complemento": "",
+      "ID_Cargo": 2
+    },
+    {
+      "ID_Empregado": 3,
+      "nome": "Gerundino",
+      "rua": "Rua Substantivo",
+      "numero": 78,
+      "bairro": "Bairro Predicado",
+      "cidade": "Mesóclise",
+      "estado": "AC",
+      "complemento": "",
+      "ID_Cargo": 3
+    },
+    {
+      "ID_Empregado": 4,
+      "nome": "Chicó",
+      "rua": "Rua Eurico",
+      "numero": 50,
+      "bairro": "",
+      "cidade": "João Pessoa",
+      "estado": "PB",
+      "complemento": "Apt 28 Bloco C",
+      "ID_Cargo": 2
+    }
+  ]
+}
+
+{
+  "emails": [
+    {
+      "ID_Empregado": 1,
+      "email": "grilo@mail.com"
+    },
+    {
+      "ID_Empregado": 1,
+      "email": "joaog@mk.com"
+    },
+    {
+      "ID_Empregado": 2,
+      "email": "ada@mail.com"
+    },
+    {
+      "ID_Empregado": 2,
+      "email": "abyron@tech.com"
+    },
+    {
+      "ID_Empregado": 3,
+      "email": "gerundino@gmail.com"
+    },
+    {
+      "ID_Empregado": 4,
+      "email": ""
+    }
+  ]
+}
+
+{
+  "cargos": [
+    {
+      "ID_Cargo": 1,
+      "cargo": "contador",
+      "jornada": "40",
+      "salario": "R$3000,00"
+    },
+    {
+      "ID_Cargo": 2,
+      "cargo": "Developer",
+      "jornada": "20",
+      "salario": "R$15000,00"
+    },
+    {
+      "ID_Cargo": 3,
+      "cargo": "Linguista",
+      "jornada": "44",
+      "salario": "R$8000,00"
+    }
+  ]
+}

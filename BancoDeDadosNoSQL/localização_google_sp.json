@@ -1,0 +1,10 @@
+{
+	"usuario": {
+		"pagina_inicial":"www.google.com",
+		"idioma_preferido":"Português do Brasil",
+		"Localização":"São Paulo",
+		"Tema":"Clássico",
+		"mostrar_favoritos":true,
+		"zoom":100
+	}
+}
