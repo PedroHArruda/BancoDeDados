@@ -2,7 +2,8 @@
 # Atividade individual - Tema NoSQL
 
 ## Descrição 
-Para o desenvolvimento deste exercício foi necessária aplicação da 3ª Forma Normal na tabela disponibilizada no exercício. Após a normalização da tabela foi desenvolvido o modelo lógico presente neste README e em seguida o script das tabelas foi escrito, juntamente com a view responsável pela seleção de todas as locações de seus respectivos veículos e clientes. 
+O desenvolvimento desta atividade é dividido em duas partes, a primeira parte consiste no desenvolvimento dos códigos JSON, após a normalização da tabela disponibilizada no exercício. Para a segunda parte é necessário o desenvolvimento de um banco de dados utilizando Firebase com o tema Jogos, nesse banco deve haver coleções de personagens, jogos e fabricante, também deve haver relacionamento entre coleções. 
+
 
 ## Pré-Requisitos ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
@@ -26,3 +27,5 @@ Para o desenvolvimento dos arquivos JSON foi utilizado apenas o bloco de notas. 
 **Coleção Personagens (todos os outros documentos da coleção seguem o mesmo formato**
 ![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/7135ed8e-5208-4119-8276-4fd61f94d319)
 
+## Imagem do banco de dados sobre Animais
+![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/136b443e-1a25-4583-9e73-f1fe5005c8f9)
