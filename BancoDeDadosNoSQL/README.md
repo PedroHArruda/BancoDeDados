@@ -16,15 +16,15 @@ Para o desenvolvimento dos arquivos JSON foi utilizado apenas o bloco de notas. 
 
 ## Imagens do banco de dados não-relacional sobre Jogos
 
-**Coleção Fabricantes (todos os outros documentos da coleção seguem o mesmo formato**
+**Coleção Fabricantes (todos os outros documentos da coleção seguem o mesmo formato**)
 ![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/855d8d00-7a6d-4a5c-8732-1d93b5eaa3d5)
 
 
-**Coleção Jogos (todos os outros documentos da coleção seguem o mesmo formato**
+**Coleção Jogos (todos os outros documentos da coleção seguem o mesmo formato**)
 ![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/0abd4a3d-1570-4fe1-9100-67f39f12eab1)
 
 
-**Coleção Personagens (todos os outros documentos da coleção seguem o mesmo formato**
+**Coleção Personagens (todos os outros documentos da coleção seguem o mesmo formato**)
 ![image](https://github.com/PedroHArruda/BancoDeDados/assets/143942475/7135ed8e-5208-4119-8276-4fd61f94d319)
 
 ## Imagem do banco de dados sobre Animais
